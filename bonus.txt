@@ -1,0 +1,4 @@
+Bonus Features:
+
+We did not use any delete or free in our code. No arrays but vectors, and all raw pointers are wrapped by unique pointers or shared pointers. Also, we created a cheat mode. If the command line has “-cheat1” or “-cheat2”, which means the cheat mode is on for player1 or player2. If the cheat mode is on, when you can produce special effects, you can choose multiple specials effects and produce them at the same time. Be default, the cheat mode is off, and you can only choose one special effect each time.
+

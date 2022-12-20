@@ -7,7 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189BF66F21A48BC600FBA9DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189BF66E21A48BC600FBA9DC /* main.cpp */; };
+		189BF66F21A48BC600FBA9DC /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF66E21A48BC600FBA9DC /* main.cc */; };
+		189BF67821A4CA4800FBA9DC /* Board.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF67621A4CA4800FBA9DC /* Board.cc */; };
+		189BF67B21A4CD8E00FBA9DC /* SpecialEffect.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF67921A4CD8E00FBA9DC /* SpecialEffect.cc */; };
+		189BF67E21A4CDAA00FBA9DC /* seDecorator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF67C21A4CDAA00FBA9DC /* seDecorator.cc */; };
+		189BF68121A4CDC200FBA9DC /* Blind.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF67F21A4CDC200FBA9DC /* Blind.cc */; };
+		189BF68421A4CDD200FBA9DC /* Heavy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF68221A4CDD200FBA9DC /* Heavy.cc */; };
+		189BF68721A4CDDF00FBA9DC /* Force.h in Sources */ = {isa = PBXBuildFile; fileRef = 189BF68521A4CDDF00FBA9DC /* Force.h */; };
+		189BF68A21A4CDF000FBA9DC /* TextDisplay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF68821A4CDF000FBA9DC /* TextDisplay.cc */; };
+		189BF68D21A4CDFC00FBA9DC /* Score.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF68B21A4CDFC00FBA9DC /* Score.cc */; };
+		189BF69021A4CE0D00FBA9DC /* Cell.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF68E21A4CE0D00FBA9DC /* Cell.cc */; };
+		189BF69321A4CE2000FBA9DC /* cmdProcessor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF69121A4CE2000FBA9DC /* cmdProcessor.cc */; };
+		189BF69D21A4CE6C00FBA9DC /* Block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF69B21A4CE6C00FBA9DC /* Block.cc */; };
+		189BF6A021A4CE7E00FBA9DC /* Position.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF69E21A4CE7E00FBA9DC /* Position.cc */; };
+		189BF6A321A4CE8D00FBA9DC /* BlockI.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6A121A4CE8D00FBA9DC /* BlockI.cc */; };
+		189BF6A621A4CE9A00FBA9DC /* BlockJ.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6A421A4CE9A00FBA9DC /* BlockJ.cc */; };
+		189BF6AC21A4CEB400FBA9DC /* BlockO.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6AA21A4CEB400FBA9DC /* BlockO.cc */; };
+		189BF6AF21A4CEC200FBA9DC /* BlockS.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6AD21A4CEC200FBA9DC /* BlockS.cc */; };
+		189BF6B221A4CECF00FBA9DC /* BlockZ.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6B021A4CECF00FBA9DC /* BlockZ.cc */; };
+		189BF6B521A4CEDB00FBA9DC /* BlockT.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6B321A4CEDB00FBA9DC /* BlockT.cc */; };
+		189BF6B821A64E4E00FBA9DC /* DoNothing.h in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6B621A64E4E00FBA9DC /* DoNothing.h */; };
+		189BF6BF21A7705200FBA9DC /* newBlock.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6BE21A7705200FBA9DC /* newBlock.cc */; };
+		189BF6C221AA23EB00FBA9DC /* BlockL.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189BF6C121AA23EB00FBA9DC /* BlockL.cc */; };
+		18B7A54421AFDA57001F2948 /* xWindow.cc in Sources */ = {isa = PBXBuildFile; fileRef = 18B7A53A21AFDA54001F2948 /* xWindow.cc */; };
+		18B7A54521AFDA57001F2948 /* BlockExtra.cc in Sources */ = {isa = PBXBuildFile; fileRef = 18B7A53E21AFDA55001F2948 /* BlockExtra.cc */; };
+		18B7A54621AFDA57001F2948 /* graphicDisplay.cc in Sources */ = {isa = PBXBuildFile; fileRef = 18B7A54221AFDA56001F2948 /* graphicDisplay.cc */; };
+		18D5C44E21AA5E6C009AE389 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 18D5C44D21AA5E6C009AE389 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +49,59 @@
 
 /* Begin PBXFileReference section */
 		189BF66B21A48BC600FBA9DC /* Biquadris */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Biquadris; sourceTree = BUILT_PRODUCTS_DIR; };
-		189BF66E21A48BC600FBA9DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		189BF66E21A48BC600FBA9DC /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		189BF67621A4CA4800FBA9DC /* Board.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cc; sourceTree = "<group>"; };
+		189BF67721A4CA4800FBA9DC /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		189BF67921A4CD8E00FBA9DC /* SpecialEffect.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpecialEffect.cc; sourceTree = "<group>"; };
+		189BF67A21A4CD8E00FBA9DC /* SpecialEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialEffect.h; sourceTree = "<group>"; };
+		189BF67C21A4CDAA00FBA9DC /* seDecorator.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = seDecorator.cc; sourceTree = "<group>"; };
+		189BF67D21A4CDAA00FBA9DC /* seDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seDecorator.h; sourceTree = "<group>"; };
+		189BF67F21A4CDC200FBA9DC /* Blind.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Blind.cc; sourceTree = "<group>"; };
+		189BF68021A4CDC200FBA9DC /* Blind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blind.h; sourceTree = "<group>"; };
+		189BF68221A4CDD200FBA9DC /* Heavy.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Heavy.cc; sourceTree = "<group>"; };
+		189BF68321A4CDD200FBA9DC /* Heavy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heavy.h; sourceTree = "<group>"; };
+		189BF68521A4CDDF00FBA9DC /* Force.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Force.h; sourceTree = "<group>"; };
+		189BF68621A4CDDF00FBA9DC /* Force.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Force.cc; sourceTree = "<group>"; };
+		189BF68821A4CDF000FBA9DC /* TextDisplay.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextDisplay.cc; sourceTree = "<group>"; };
+		189BF68921A4CDF000FBA9DC /* TextDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDisplay.h; sourceTree = "<group>"; };
+		189BF68B21A4CDFC00FBA9DC /* Score.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Score.cc; sourceTree = "<group>"; };
+		189BF68C21A4CDFC00FBA9DC /* Score.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		189BF68E21A4CE0D00FBA9DC /* Cell.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cc; sourceTree = "<group>"; };
+		189BF68F21A4CE0D00FBA9DC /* Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		189BF69121A4CE2000FBA9DC /* cmdProcessor.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cmdProcessor.cc; sourceTree = "<group>"; };
+		189BF69B21A4CE6C00FBA9DC /* Block.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cc; sourceTree = "<group>"; };
+		189BF69C21A4CE6C00FBA9DC /* Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		189BF69E21A4CE7E00FBA9DC /* Position.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cc; sourceTree = "<group>"; };
+		189BF69F21A4CE7E00FBA9DC /* Position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		189BF6A121A4CE8D00FBA9DC /* BlockI.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockI.cc; sourceTree = "<group>"; };
+		189BF6A221A4CE8D00FBA9DC /* BlockI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockI.h; sourceTree = "<group>"; };
+		189BF6A421A4CE9A00FBA9DC /* BlockJ.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockJ.cc; sourceTree = "<group>"; };
+		189BF6A521A4CE9A00FBA9DC /* BlockJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockJ.h; sourceTree = "<group>"; };
+		189BF6A821A4CEA400FBA9DC /* BlockL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockL.h; sourceTree = "<group>"; };
+		189BF6AA21A4CEB400FBA9DC /* BlockO.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockO.cc; sourceTree = "<group>"; };
+		189BF6AB21A4CEB400FBA9DC /* BlockO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockO.h; sourceTree = "<group>"; };
+		189BF6AD21A4CEC200FBA9DC /* BlockS.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockS.cc; sourceTree = "<group>"; };
+		189BF6AE21A4CEC200FBA9DC /* BlockS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockS.h; sourceTree = "<group>"; };
+		189BF6B021A4CECF00FBA9DC /* BlockZ.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockZ.cc; sourceTree = "<group>"; };
+		189BF6B121A4CECF00FBA9DC /* BlockZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockZ.h; sourceTree = "<group>"; };
+		189BF6B321A4CEDB00FBA9DC /* BlockT.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockT.cc; sourceTree = "<group>"; };
+		189BF6B421A4CEDB00FBA9DC /* BlockT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockT.h; sourceTree = "<group>"; };
+		189BF6B621A64E4E00FBA9DC /* DoNothing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoNothing.h; sourceTree = "<group>"; };
+		189BF6BD21A76D2500FBA9DC /* cmdProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdProcessor.h; sourceTree = "<group>"; };
+		189BF6BE21A7705200FBA9DC /* newBlock.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = newBlock.cc; sourceTree = "<group>"; };
+		189BF6C021A7707000FBA9DC /* newBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newBlock.h; sourceTree = "<group>"; };
+		189BF6C121AA23EB00FBA9DC /* BlockL.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockL.cc; sourceTree = "<group>"; };
+		18B7A53A21AFDA54001F2948 /* xWindow.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xWindow.cc; sourceTree = "<group>"; };
+		18B7A53B21AFDA55001F2948 /* command.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = command.txt; sourceTree = "<group>"; };
+		18B7A53C21AFDA55001F2948 /* BlockExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockExtra.h; sourceTree = "<group>"; };
+		18B7A53D21AFDA55001F2948 /* xWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xWindow.h; sourceTree = "<group>"; };
+		18B7A53E21AFDA55001F2948 /* BlockExtra.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockExtra.cc; sourceTree = "<group>"; };
+		18B7A53F21AFDA56001F2948 /* sequence2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sequence2.txt; sourceTree = "<group>"; };
+		18B7A54021AFDA56001F2948 /* graphicDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphicDisplay.h; sourceTree = "<group>"; };
+		18B7A54221AFDA56001F2948 /* graphicDisplay.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphicDisplay.cc; sourceTree = "<group>"; };
+		18B7A54321AFDA56001F2948 /* sequence1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sequence1.txt; sourceTree = "<group>"; };
+		18D5C44B21AA5D1C009AE389 /* DoNothing.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoNothing.cc; sourceTree = "<group>"; };
+		18D5C44D21AA5E6C009AE389 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +134,59 @@
 		189BF66D21A48BC600FBA9DC /* Biquadris */ = {
 			isa = PBXGroup;
 			children = (
-				189BF66E21A48BC600FBA9DC /* main.cpp */,
+				189BF66E21A48BC600FBA9DC /* main.cc */,
+				18B7A53E21AFDA55001F2948 /* BlockExtra.cc */,
+				18B7A53C21AFDA55001F2948 /* BlockExtra.h */,
+				18B7A53B21AFDA55001F2948 /* command.txt */,
+				18B7A54221AFDA56001F2948 /* graphicDisplay.cc */,
+				18B7A54021AFDA56001F2948 /* graphicDisplay.h */,
+				189BF68921A4CDF000FBA9DC /* TextDisplay.h */,
+				18B7A54321AFDA56001F2948 /* sequence1.txt */,
+				18B7A53F21AFDA56001F2948 /* sequence2.txt */,
+				18B7A53A21AFDA54001F2948 /* xWindow.cc */,
+				18B7A53D21AFDA55001F2948 /* xWindow.h */,
+				18D5C44D21AA5E6C009AE389 /* Makefile */,
+				189BF68F21A4CE0D00FBA9DC /* Cell.h */,
+				189BF68E21A4CE0D00FBA9DC /* Cell.cc */,
+				189BF67721A4CA4800FBA9DC /* Board.h */,
+				189BF67621A4CA4800FBA9DC /* Board.cc */,
+				189BF67A21A4CD8E00FBA9DC /* SpecialEffect.h */,
+				189BF67921A4CD8E00FBA9DC /* SpecialEffect.cc */,
+				189BF6B621A64E4E00FBA9DC /* DoNothing.h */,
+				18D5C44B21AA5D1C009AE389 /* DoNothing.cc */,
+				189BF67D21A4CDAA00FBA9DC /* seDecorator.h */,
+				189BF67C21A4CDAA00FBA9DC /* seDecorator.cc */,
+				189BF68021A4CDC200FBA9DC /* Blind.h */,
+				189BF67F21A4CDC200FBA9DC /* Blind.cc */,
+				189BF68321A4CDD200FBA9DC /* Heavy.h */,
+				189BF68221A4CDD200FBA9DC /* Heavy.cc */,
+				189BF68521A4CDDF00FBA9DC /* Force.h */,
+				189BF68621A4CDDF00FBA9DC /* Force.cc */,
+				189BF68C21A4CDFC00FBA9DC /* Score.h */,
+				189BF68B21A4CDFC00FBA9DC /* Score.cc */,
+				189BF68821A4CDF000FBA9DC /* TextDisplay.cc */,
+				189BF6BD21A76D2500FBA9DC /* cmdProcessor.h */,
+				189BF69121A4CE2000FBA9DC /* cmdProcessor.cc */,
+				189BF6C021A7707000FBA9DC /* newBlock.h */,
+				189BF6BE21A7705200FBA9DC /* newBlock.cc */,
+				189BF69C21A4CE6C00FBA9DC /* Block.h */,
+				189BF69B21A4CE6C00FBA9DC /* Block.cc */,
+				189BF69F21A4CE7E00FBA9DC /* Position.h */,
+				189BF69E21A4CE7E00FBA9DC /* Position.cc */,
+				189BF6A221A4CE8D00FBA9DC /* BlockI.h */,
+				189BF6A121A4CE8D00FBA9DC /* BlockI.cc */,
+				189BF6A821A4CEA400FBA9DC /* BlockL.h */,
+				189BF6C121AA23EB00FBA9DC /* BlockL.cc */,
+				189BF6A521A4CE9A00FBA9DC /* BlockJ.h */,
+				189BF6A421A4CE9A00FBA9DC /* BlockJ.cc */,
+				189BF6AB21A4CEB400FBA9DC /* BlockO.h */,
+				189BF6AA21A4CEB400FBA9DC /* BlockO.cc */,
+				189BF6AE21A4CEC200FBA9DC /* BlockS.h */,
+				189BF6AD21A4CEC200FBA9DC /* BlockS.cc */,
+				189BF6B121A4CECF00FBA9DC /* BlockZ.h */,
+				189BF6B021A4CECF00FBA9DC /* BlockZ.cc */,
+				189BF6B421A4CEDB00FBA9DC /* BlockT.h */,
+				189BF6B321A4CEDB00FBA9DC /* BlockT.cc */,
 			);
 			path = Biquadris;
 			sourceTree = "<group>";
@@ -118,7 +247,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189BF66F21A48BC600FBA9DC /* main.cpp in Sources */,
+				18B7A54521AFDA57001F2948 /* BlockExtra.cc in Sources */,
+				18D5C44E21AA5E6C009AE389 /* Makefile in Sources */,
+				189BF67821A4CA4800FBA9DC /* Board.cc in Sources */,
+				189BF69D21A4CE6C00FBA9DC /* Block.cc in Sources */,
+				189BF66F21A48BC600FBA9DC /* main.cc in Sources */,
+				189BF67B21A4CD8E00FBA9DC /* SpecialEffect.cc in Sources */,
+				189BF68A21A4CDF000FBA9DC /* TextDisplay.cc in Sources */,
+				189BF6C221AA23EB00FBA9DC /* BlockL.cc in Sources */,
+				189BF68421A4CDD200FBA9DC /* Heavy.cc in Sources */,
+				189BF6BF21A7705200FBA9DC /* newBlock.cc in Sources */,
+				189BF68121A4CDC200FBA9DC /* Blind.cc in Sources */,
+				18B7A54621AFDA57001F2948 /* graphicDisplay.cc in Sources */,
+				189BF69321A4CE2000FBA9DC /* cmdProcessor.cc in Sources */,
+				189BF68D21A4CDFC00FBA9DC /* Score.cc in Sources */,
+				189BF67E21A4CDAA00FBA9DC /* seDecorator.cc in Sources */,
+				189BF6B821A64E4E00FBA9DC /* DoNothing.h in Sources */,
+				18B7A54421AFDA57001F2948 /* xWindow.cc in Sources */,
+				189BF68721A4CDDF00FBA9DC /* Force.h in Sources */,
+				189BF6B521A4CEDB00FBA9DC /* BlockT.cc in Sources */,
+				189BF69021A4CE0D00FBA9DC /* Cell.cc in Sources */,
+				189BF6AC21A4CEB400FBA9DC /* BlockO.cc in Sources */,
+				189BF6A021A4CE7E00FBA9DC /* Position.cc in Sources */,
+				189BF6AF21A4CEC200FBA9DC /* BlockS.cc in Sources */,
+				189BF6B221A4CECF00FBA9DC /* BlockZ.cc in Sources */,
+				189BF6A321A4CE8D00FBA9DC /* BlockI.cc in Sources */,
+				189BF6A621A4CE9A00FBA9DC /* BlockJ.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
